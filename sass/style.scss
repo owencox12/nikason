@@ -1,0 +1,26 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.container {
+    max-width: 1250px; 
+    margin: 0 auto;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/jobs';
+@import 'blocks/about';
+@import 'blocks/now';
+@import 'blocks/master';
+@import 'blocks/design';
+@import 'blocks/footer';
+@import 'blocks/arrow';
+@import 'blocks/media';

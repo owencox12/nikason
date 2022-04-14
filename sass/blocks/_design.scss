@@ -1,0 +1,19 @@
+.design {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 157px;
+    }
+    &__item {
+        &_descr {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            color: #000000;
+            width: 591px;
+            margin-top: 100px;
+        }
+    }
+}

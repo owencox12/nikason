@@ -1,0 +1,17 @@
+.main {
+    min-height: 721px;
+    background: url(../../image/mainBG.png) center center / cover no-repeat;
+    &__title {
+        font-family: 'Tenor Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 150%;
+        color: #F6F6F6;
+        padding-top: 267px;
+        text-align: center;
+    }
+    &__button {
+        text-align: center;
+    }
+}

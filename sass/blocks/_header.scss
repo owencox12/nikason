@@ -1,0 +1,41 @@
+.header {
+    min-height: 137px;
+    background: #E5E5E5;
+    transition: all .3s;
+    top: -100%;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 31px;
+        align-items: center;
+    }
+    &__menu {
+        &_list {
+            display: flex;
+            &_type {
+                margin: 0 49px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                &_second {
+                    margin-left: 155px;
+                }
+                a {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #323232;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__burger_list {
+        display: none;
+    }
+}

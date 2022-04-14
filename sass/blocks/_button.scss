@@ -1,0 +1,41 @@
+.button {
+    &--main {
+        width: 328px;
+        height: 60px;
+        background: #F6F6F6;
+        border: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: #4C6D77;
+        margin-top: 97px;
+    }
+    &--jobs {
+        width: 328px;
+        height: 60px;
+        background: #A1B29F;
+        border: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: #F6F6F6;
+        margin-top: 90px;
+    }
+    &--design {
+        width: 245px;
+        height: 60px;
+        border: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: #F6F6F6;
+        background: #A1B29F;
+        margin-top: 47px;
+    }
+}

@@ -1,0 +1,38 @@
+.about {
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+    }
+    &__item {
+        margin-top: 57px;
+        &:first-child {
+            margin-top: 0;
+        }
+        &_text {
+            margin: 45px 0;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        &_block {
+            display: flex;
+            align-items: center;
+            &_image {
+            }
+            &_text {
+                // margin-left: 43px;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 150%;
+                color: #000000;
+                margin-left: 43px;
+                width: 400px;
+            }
+        }
+    }
+}

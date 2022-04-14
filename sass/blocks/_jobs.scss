@@ -1,0 +1,39 @@
+.jobs {
+    min-height: 2200px;
+    background: #E5E5E5;
+    padding-bottom: 150px;
+    &__wrapper {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        &:nth-child(5) {
+            margin-top: 50px;
+        }
+        &:nth-child(6) {
+            margin-top: 50px;
+        }
+        &:nth-child(7) {
+            margin-top: 50px;
+        }
+        &:nth-child(8) {
+            margin-top: 50px;
+        }
+        width: 22%;
+        &_text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 102.99%;
+            color: #323232;
+            text-align: center;
+            margin-top: 25px;
+        }
+    }
+    &__button {
+        text-align: center;
+    }
+}
